@@ -2,6 +2,7 @@ import { BrowserRouter as Router, NavLink, Routes, Route } from "react-router-do
 import { PizzaListPage } from "./PizzaListPage";
 import { PizzaSinglePage } from "./PizzaSinglePage";
 import { PizzaCreatePage } from "./PizzaCreatePage";
+import { PizzaModPage } from "./PizzaModPage";
 import './App.css';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" exact element={<PizzaListPage />} />
         <Route path="/pizza/:pizzaId" exact element={<PizzaSinglePage />} />
         <Route path="/uj-pizza" exact element={<PizzaCreatePage />} />
+        <Route path="/mod-pizza/:pizzaId" exact element={<PizzaModPage />} />
       </Routes>
     </Router>
   );

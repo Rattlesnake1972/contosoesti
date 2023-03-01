@@ -24,6 +24,7 @@ export function PizzaCreatePage(){
                 body: JSON.stringify({
                     name: event.target.elements.name.value,
                     isGlutenFree: event.target.elements.isglutenfree.value,
+                    feltet: event.target.elements.feltet.value,
                     kepURL: event.target.elements.kepurl.value,
                 }),
             })
@@ -44,6 +45,12 @@ export function PizzaCreatePage(){
                 <label className="col-sm-3 col-form-label">Gluténmentes:</label>
                 <div className="col-sm-9">
                 <input type="number" name="isglutenfree" className="form-control" />
+                </div>
+            </div>
+            <div className="form-group row pb-3">
+                <label className="col-sm-3 col-form-label">Ami rajta van:</label>
+                <div className="col-sm-9">
+                <input type="text" name="feltet" className="form-control" />
                 </div>
             </div>
             <div className="form-group row pb-3">
