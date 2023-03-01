@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/contosoesti/static/css/main.68841a8d.css",
+    "main.js": "/contosoesti/static/js/main.48375cec.js",
+    "static/js/787.cb12ecc9.chunk.js": "/contosoesti/static/js/787.cb12ecc9.chunk.js",
+    "index.html": "/contosoesti/index.html",
+    "main.68841a8d.css.map": "/contosoesti/static/css/main.68841a8d.css.map",
+    "main.48375cec.js.map": "/contosoesti/static/js/main.48375cec.js.map",
+    "787.cb12ecc9.chunk.js.map": "/contosoesti/static/js/787.cb12ecc9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68841a8d.css",
+    "static/js/main.48375cec.js"
+  ]
+}
